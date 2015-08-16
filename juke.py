@@ -132,26 +132,27 @@ keypressed = 11
 coins = 0
 selection = 0
 songs = {100: 1, 101: 2, 110: 8, 200: 1}
+#16,24
+OPTO = 7
+ADDled = 8
+PLAYINGled = 10
+HOME = 11
+RESETled = 12
+AB = 13
+SELECTIONled = 15
+SPIN = 18
+QUARTER = 23
+LOAD = 22
+DIME = 29
 PUR = 26
+HALF = 31
+NICKEL = 33
 BLU = 32
+GRY = 35
 GRN = 36
+BRN = 37
 YEL = 38
 ORN = 40
-BRN = 37
-GRY = 33
-QUARTER = 21
-HALF = 29
-SPIN = 18
-NICKEL = 31
-LOAD = 22
-OPTO = 7
-RESETled = 12
-ADDled = 8
-SELECTIONled = 19
-PLAYINGled = 10
-DIME = 23
-HOME = 11
-AB = 13
 # Keyboard
 GPIO.setup(GRY, GPIO.OUT)
 GPIO.setup(PUR, GPIO.OUT)
